@@ -1,28 +1,38 @@
-header {
+body {
     display: grid;
+
+}
+
+h3 {
+    font-family: monospace;
+}
+
+.header {
+    display: grid;
+    text-align: center;
     grid-template-areas: auto;
     background-color: lightsalmon;
-    font-family: monospace;
 }
 
-h1 {
+.header a {
     color: azure;
     font-family: monospace;
+    text-decoration: none;
+}
+
+#social_links {
+    color: lightsalmon;
+    text-decoration: none;
+}
+
+.topnav {
+    display: grid;
     text-align: center;
+    background-color: lightsalmon;
 }
 
-h2 {
-    color: azure;
+.topnav a {
     font-family: monospace;
-    text-align: center;
-}
-
-p {
-    font-family: monospace;
-}
-
-
-a:link, a:visited {
     color: azure;
     padding: 15px 25px;
     text-align: center;
@@ -30,8 +40,12 @@ a:link, a:visited {
     text-decoration: none;
 }
 
-a:hover, a:active {
+.topnav a:hover, a:active {
     color:darkgoldenrod;
     text-decoration: none;
 }
 
+.intro {
+    font-family: monospace;
+    max-width: 550px;
+}
