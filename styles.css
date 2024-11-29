@@ -1,4 +1,6 @@
 header {
+    display: grid;
+    grid-template-areas: auto;
     background-color: lightsalmon;
     font-family: monospace;
 }
@@ -9,6 +11,27 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    color: azure;
+    font-family: monospace;
+    text-align: center;
+}
+
 p {
     font-family: monospace;
 }
+
+
+a:link, a:visited {
+    color: azure;
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color:darkgoldenrod;
+    text-decoration: none;
+}
+
