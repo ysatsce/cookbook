@@ -1,0 +1,14 @@
+header {
+    background-color: lightsalmon;
+    font-family: monospace;
+}
+
+h1 {
+    color: azure;
+    font-family: monospace;
+    text-align: center;
+}
+
+p {
+    font-family: monospace;
+}
