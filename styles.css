@@ -4,6 +4,7 @@ body {
 
 h3 {
     font-family: monospace;
+    padding-left: min(5px, 5%);
 }
 
 .header {
@@ -28,6 +29,9 @@ h3 {
 .topnav {
     display: grid;
     text-align: center;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
     background-color: lightsalmon;
 }
 
