@@ -46,5 +46,7 @@ h3 {
 
 .info {
     font-family: monospace;
+    align-items: center;
     max-width: 550px;
+    padding-left: 15%;
 }
