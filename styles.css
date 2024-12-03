@@ -5,6 +5,8 @@ body {
 h3 {
     font-family: monospace;
     padding-left: 6vw;
+    padding-right: 6vw;
+    padding-top: 15px;
 }
 
 .header {
@@ -23,10 +25,6 @@ h3 {
     text-decoration: none;
 }
 
-#social_links {
-    color: lightsalmon;
-    text-decoration: none;
-}
 
 .topnav {
     display: grid;
@@ -57,6 +55,11 @@ h3 {
     text-align: justify;
     padding-left: 6vw;
     padding-right: 6vw;
+}
+
+.info a {
+    color: lightsalmon;
+    text-decoration: none;
 }
 
 .recipe {
